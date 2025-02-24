@@ -1,0 +1,245 @@
+/*body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+     }
+*/
+    body {
+        font-family: 'Trebuchet MS', sans-serif;
+        background-color: #e0f7fa;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+     
+        height: 100%;
+        margin: 0;
+    }
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+header .logo {
+    font-size: 1.5em;
+}
+/*
+ imagen  background: url('../img/legacy3.jpg') no-repeat center center/cover;
+
+
+*/
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 10px;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+}
+
+.hero {
+    border:3px solid red;
+    background-color: #333;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    width: 120%;
+    height: 70em;
+    background: url(..//img/legacy3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    
+ 
+   
+  
+}
+
+.hero h1 {
+    font-size: 5.5em;
+    margin: 0;
+    margin-top: 10%;
+    font-family: Caveat;
+}
+
+.hero p {
+    font-size: 1.7em;
+}
+
+.hero .btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #e93451;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.me{
+
+    border: 1px solid black;
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 8%;
+    width: 85%;
+    height: auto;
+    
+}
+.ace{
+    Border:1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+
+}
+.texto{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    
+}
+.pro{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 8%;
+    width: 85%;
+    height: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+
+}
+.allpro{
+    border:1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.5%;
+}
+
+.formato{
+    border:1px solid blue;
+    margin: 1%;
+
+
+}
+.formato .env{
+
+    margin:1%;
+
+}
+fieldset {
+    width: 50%;
+    padding: 10px;
+    margin: 8%;
+}
+
+
+.foot{
+   
+    display: flex;
+    flex-direction: column;
+    margin: 8%;
+   
+}
+.sigue{
+    display: flex;
+    flex-direction: column;
+    width: 710px;
+    height: 100px;
+    font-size: 1.2em;
+    border:1px solid black;
+    align-items: center;
+
+
+}
+
+
+
+.icon{
+    border: 1px solid black;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    padding: 1%;
+    align-items: center;
+   
+}
+
+form{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+fieldset {
+    border: 2px solid #00796b;
+    padding: 25px;
+    margin: 8%;
+    background-color: #b2dfdb;
+}
+legend {
+    color: #004d40;
+    font-size: 1.8em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="phone"],
+input[type="message"],
+
+input[type="submit"] {
+    width: 98%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 2px solid #00796b;
+    border-radius: 10px;
+}
+input[type="submit"] {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #004d40;
+}
+
+textarea{
+border-radius: 10px;
+border: 2px solid #00796b;
+
+}
+
+.call{
+    border:1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    margin: 8%;
+    font-size: 1.2em;
+}
+.minum{
+    font-size: 2.0em;
+}
