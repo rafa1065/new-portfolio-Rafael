@@ -21,8 +21,8 @@
         <div class="logo"> <img src="img/chef logo2.png" width="550" height="320"></div>
         <nav>
             <ul>
-                <li><a href="#sobre-mi">About me</a></li>
-                <li><a href="#proyectos">My Projects</a></li>
+                <li><a href="#ace">About me</a></li>
+                <li><a href="#my">My Projects</a></li>
                 <li><a href="#contacto">Contact </a></li>
             </ul>
         </nav>
@@ -47,7 +47,7 @@
     
     <main>
         <section class="tag"> <img src="img/code tag.png" width="100" height="100"></section>
-        <section class=" me">
+        <section class="me">
             <section class="ace">
                 <h2>About me</h2>
             </section>
@@ -92,7 +92,7 @@
                 </section>
                 <section class="mfa">
                     <img src="img/catholic.jpg" heigth="300" width="350">
-                    <p><a href="">Catholic Charities Reply</a></p>
+                    <p><a href="https://rafa1065.github.io/catholic_charities-reply/">Catholic Charities Reply</a></p>
                 </section>
 
 
@@ -103,29 +103,31 @@
 
         <section class="tag"> <img src="img/code tag.png" width="100" height="100"></section>
 
+        <section class="contacto">
 
-        <form>
-            <fieldset>
-                <legend> Let's me know if you need more information</legend>
-                <label for="username">Name:</label>
-                <input type="text" id="username" name="username" required>
+            <form action="https://formspree.io/f/xbldvokj" method="Post" onsubmit="return sendForm(event);">
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <fieldset>
+                    <legend> Let's me know if you need more information</legend>
+                    <label for="username">Name:</label>
+                    <input type="text" id="username" name="username" required>
 
-                <label for="phone">Phone Number:</label>
-                <input type="phone" name="phone" placeholder=""> <br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="phone" name="phone" placeholder=""> <br><br>
+                
+                    <label for="Message">Message:</label>
+                    <textarea name="msg" id="" cols="130" rows="12" class="form-control" placeholder=" "></textarea>
+
+                    <input type="submit" value="Submit">
+                    <p id="form-message"></p>
 
 
-
-                <label for="Message">Message:</label>
-                <textarea name="msg" id="" cols="130" rows="12" class="form-control" placeholder=" "></textarea>
-
-                <input type="submit" value="Submit">
-
-
-            </fieldset>
-        </form>
+                </fieldset>
+            </form>
+        </section>
 
 
     </main>
@@ -167,10 +169,7 @@
     </footer>
 
 
-
-
-
-
 </body>
+<script src="js/script.js"></script>
 
 </html>

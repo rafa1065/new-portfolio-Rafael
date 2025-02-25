@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="https://formspree.io/f/xbldvokj" method="Post" onsubmit="return sendForm(event);">
+        
+        <fieldset>
+        <legend> Let's me know if you need more information</legend>
+        <label for="username">Name:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="phone" name="phone" placeholder=""> <br><br>
+
+        <label for="Message">Message:</label>
+        <textarea name="msg" id="" cols="130" rows="12" class="form-control" placeholder=" "></textarea>
+
+        <input type="submit" value="Submit">
+        <p id="form-message"></p>
+
+
+        </fieldset>
+    </form>
+
+
+</body>
+<script src="js/script.js"></script>
+
+</html>
